@@ -1,0 +1,41 @@
+ckpt_path: /path/to/checkpoint.pt
+
+model:
+  base_learning_rate: 1.0e-04
+  target: ldm.models.autoencoder.AutoencoderKL
+  params:
+    monitor: val/rec_loss
+    embed_dim: 32
+    use_vf: dinov2
+    reverse_proj: true
+    lossconfig:
+      target: ldm.modules.losses.LPIPSWithDiscriminator
+      params:
+        disc_start: 1
+        kl_weight: 1.0e-06
+        disc_weight: 0.5
+
+        # some va-vae training settings. ignore it.
+        vf_weight: 0.1
+        adaptive_vf: true
+        vf_loss_type: combined_v3
+        distmat_margin: 0.25
+        cos_margin: 0.5
+
+    ddconfig:
+      double_z: true
+      z_channels: 32
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 128
+      ch_mult:
+      - 1
+      - 1
+      - 2
+      - 2
+      - 4
+      num_res_blocks: 2
+      attn_resolutions:
+      - 16
+      dropout: 0.0

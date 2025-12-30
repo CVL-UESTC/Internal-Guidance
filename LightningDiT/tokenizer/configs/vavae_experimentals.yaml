@@ -1,0 +1,40 @@
+# as requested, we provide more experimental va-vaes for more explorations.
+# here is a training config in LDM-style
+# The params are all used for training, only 2 of them are used in this repo: ckpt_path and embed_dim.
+
+ckpt_path: /path/to/checkpoint.pt                             # <--------------- download ckpts from our hf space
+
+model:
+  base_learning_rate: 1.0e-04
+  target: ldm.models.autoencoder.AutoencoderKL
+  params:
+    monitor: val/rec_loss                   
+    embed_dim: 32                                             # <--------------- embed_dim is the dimension of the latent space.
+                                                              #                  modify it meet your vae. for example, if you use a f16d64 vae, 
+                                                              #                  you should set embed_dim to 64.
+    use_vf: dinov2
+    reverse_proj: true
+    lossconfig:
+      target: ldm.modules.losses.LPIPSWithDiscriminator
+      params:
+        disc_start: 1
+        kl_weight: 1.0e-06
+        disc_weight: 0.5
+
+    ddconfig:
+      double_z: true
+      z_channels: 32                                          # <--------------- z_channels = embed_dim
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 128
+      ch_mult:
+      - 1
+      - 1
+      - 2
+      - 2
+      - 4
+      num_res_blocks: 2
+      attn_resolutions:
+      - 16
+      dropout: 0.0

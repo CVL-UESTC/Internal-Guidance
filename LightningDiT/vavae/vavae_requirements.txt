@@ -1,0 +1,6 @@
+# additional packages besides lightningdit requires
+pytorch-lightning==2.4.0
+opencv-python
+albumentations
+scikit-image
+numpy>=1.24.0
