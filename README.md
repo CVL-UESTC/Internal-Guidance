@@ -4,7 +4,7 @@
 ### [Paper](https://arxiv.org/abs/2510.11690) | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models](https://huggingface.co/CVLUESTC/Internal-Guidance) 
 
 > [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**](https://arxiv.org/abs/2510.11690)<br>
-> [Boyang Zheng](https://bytetriper.github.io/), [Nanye Ma](https://willisma.github.io), [Shengbang Tong](https://tsb0601.github.io/),  [Saining Xie](https://www.sainingxie.com)
+> [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)²,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
 > <br>New York University<br>
 
 ![SiT+SRA samples](selected_samples.png)
