@@ -4,10 +4,13 @@
 ### [Paper](https://arxiv.org/abs/2510.11690) | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models](https://huggingface.co/CVLUESTC/Internal-Guidance) 
 
 > [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**](https://arxiv.org/abs/2510.11690)<br>
-> [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)²,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
-> <br>New York University<br>
+> [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)<sup>3,4</sup>,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
+> <br><sup>1</sup>University of Electronic Science and Technology of China <sup>2</sup>National University of Singapore<br>
+> <sup>3</sup>Sun Yat-sen University <sup>4</sup>North China Institute of Computer Systems Engineering<br>
+> <br><sup>*</sup>Corresponding Author<br>
 
-![SiT+SRA samples](selected_samples.png)
+
+![LightningDiT+IG samples](selected_samples.png)
 
 ### 💥1.News  
 - **[2025.12.31]** We have released the paper and code of IG.
