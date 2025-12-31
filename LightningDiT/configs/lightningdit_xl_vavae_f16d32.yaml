@@ -29,6 +29,7 @@ vae:
 # recommend to use default settings
 model:
   model_type: LightningDiT-XL/1
+  encoder_depth: 8
   use_qknorm: false
   use_swiglu: true
   use_rope: true
