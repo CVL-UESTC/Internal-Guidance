@@ -26,9 +26,9 @@
 - **Improved Performance:** IG accelerates training and improves generation performance for DiTs, SiTs and LightningDiT.
 
 ## 📝 Results
-- State-of-the-art Performance on ImageNet 256x256 with FID=1.19 (random sampling).
+- State-of-the-art Performance on ImageNet 256x256 with FID=1.19 (**random sampling**).
 ![Random sampling](randomsota.png)
-- State-of-the-art Performance on ImageNet 256x256 with FID=1.07 (uniform balanced sampling).
+- State-of-the-art Performance on ImageNet 256x256 with FID=1.07 (**uniform balanced sampling**).
 ![Uniform balanced sampling](unisota.png)
 ### 🏡 Environment Setup
 
