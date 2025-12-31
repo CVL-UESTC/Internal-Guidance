@@ -21,7 +21,7 @@
 
 -  **Simple enough, powerful enough:**  We present <strong>Internal Guidance (IG)</strong>, a simple yet powerful guidance mechanism for Diffusion Transformers. Just requiring an additional intermediate supervision is all that is needed.
 
-- **intermediate supervision:** A simple intermediate supervision can achieve a similar effect to the additional designed self-supervised learning regularization.
+- **intermediate supervision:** Only a simple intermediate supervision can achieve a similar effect to the additional designed self-supervised learning regularization.
 
 - **Improved Performance:** IG accelerates training and improves generation performance for DiTs, SiTs and LightningDiT.
 
