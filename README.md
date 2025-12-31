@@ -1,9 +1,9 @@
 
 ## Guiding a Diffusion Transformer with the Internal Dynamics of Itself (IG)<br><sub>Official PyTorch Implementation</sub>
 
-### [Paper](https://arxiv.org/abs/2510.11690) | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models](https://huggingface.co/CVLUESTC/Internal-Guidance) 
+### [Paper]() | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models](https://huggingface.co/CVLUESTC/Internal-Guidance) 
 
-> [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**](https://arxiv.org/abs/2510.11690)<br>
+> [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**]()<br>
 > [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)<sup>3,4</sup>,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
 > <br><sup>1</sup>University of Electronic Science and Technology of China <sup>2</sup>National University of Singapore<br>
 > <sup>3</sup>Sun Yat-sen University <sup>4</sup>North China Institute of Computer Systems Engineering<br>
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 📜 Dataset Preparation
 
 Currently, we provide experiments for [ImageNet](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data). You can place the data that you want and can specify it via `--data-dir` arguments in training scripts. \
-Note that we preprocess the data for faster training. Please refer to [preprocessing guide](https://github.com/vvvvvjdy/SRA/tree/main/preprocessing) for SiTs and [README.md](https://github.com/vvvvvjdy/SRA/tree/main/preprocessing) for LightningDiTs for detailed guidance.
+Note that we preprocess the data for faster training. Please refer to [preprocessing guide](https://github.com/CVL-UESTC/Internal-Guidance/tree/main/SiT/preprocessing) for SiTs and [README.md](https://github.com/CVL-UESTC/Internal-Guidance/tree/main/LightningDiT/README.md) for LightningDiTs for detailed guidance.
 
 ### 🔥 Training
 Here we provide the training code for SiTs and LightningDiTs.
@@ -84,7 +84,7 @@ Then this script will automatically create the folder in `output` to save logs a
 
 
 ### 🌠 Evaluation
-Here we provide the generating code (**random sampling**) for SiTs to get the samples for evaluation. (and the .npz file can be used for [ADM evaluation](https://github.com/openai/guided-diffusion/tree/main/evaluations) suite) through the following script:
+Here we provide the generating code (**random sampling**) for SiTs and LightningDiTs to get the samples for evaluation. (and the .npz file can be used for [ADM evaluation](https://github.com/openai/guided-diffusion/tree/main/evaluations) suite) through the following script:
 
 You can download our pretrained model here:
 
