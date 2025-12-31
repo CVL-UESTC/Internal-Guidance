@@ -1,7 +1,7 @@
 
 ## Guiding a Diffusion Transformer with the Internal Dynamics of Itself (IG)<br><sub>Official PyTorch Implementation</sub>
 
-### [Paper]() | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models](https://huggingface.co/CVLUESTC/Internal-Guidance) 
+### [Paper]() | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models (HuggingFace)](https://huggingface.co/CVLUESTC/Internal-Guidance) 
 
 > [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**]()<br>
 > [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)<sup>3,4</sup>,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
