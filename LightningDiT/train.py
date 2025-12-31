@@ -79,6 +79,7 @@ def do_train(train_config, accelerator):
     model = LightningDiT_models[train_config['model']['model_type']](
         input_size=latent_size,
         num_classes=train_config['data']['num_classes'],
+        encoder_depth=train_config['model']['encoder_depth'],
         use_qknorm=train_config['model']['use_qknorm'],
         use_swiglu=train_config['model']['use_swiglu'] if 'use_swiglu' in train_config['model'] else False,
         use_rope=train_config['model']['use_rope'] if 'use_rope' in train_config['model'] else False,
