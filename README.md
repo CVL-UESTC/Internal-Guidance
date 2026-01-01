@@ -1,9 +1,9 @@
 
 ## Guiding a Diffusion Transformer with the Internal Dynamics of Itself (IG)<br><sub>Official PyTorch Implementation</sub>
 
-### [Paper]() | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models (HuggingFace)](https://huggingface.co/CVLUESTC/Internal-Guidance) 
+### [Paper](https://arxiv.org/abs/2512.24176v1) | [Project Page](https://zhouxingyu13.github.io/Internal-Guidance/) | [Models (HuggingFace)](https://huggingface.co/CVLUESTC/Internal-Guidance) 
 
-> [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**]()<br>
+> [**Guiding a Diffusion Transformer with the Internal Dynamics of Itself**](https://arxiv.org/abs/2512.24176v1)<br>
 > [Xingyu Zhou](https://zhouxingyu13.github.io/)¹, [Qifan Li](https://scholar.google.com/citations?user=1ssHRA8AAAAJ&hl=zh-CN)¹, [Xiaobin Hu](https://huuxiaobin.github.io/)²,  [Hai Chen](https://openreview.net/profile?id=%7EHai_Chen3)<sup>3,4</sup>,  [Shuhang Gu](https://shuhanggu.github.io/)¹*
 > <br><sup>1</sup>University of Electronic Science and Technology of China <sup>2</sup>National University of Singapore<br>
 > <sup>3</sup>Sun Yat-sen University <sup>4</sup>North China Institute of Computer Systems Engineering<br>
@@ -21,7 +21,7 @@
 
 -  **Simple enough, powerful enough:**  We present <strong>Internal Guidance (IG)</strong>, a simple yet powerful guidance mechanism for Diffusion Transformers. Just requiring an additional intermediate supervision is all that is needed.
 
-- **intermediate supervision:** Only a simple intermediate supervision can achieve a similar effect to the additional designed self-supervised learning regularization.
+- **Intermediate supervision:** Only a simple intermediate supervision can achieve a similar effect to the additional designed self-supervised learning regularization.
 
 - **Improved Performance:** IG accelerates training and improves generation performance for DiTs, SiTs and LightningDiT.
 
