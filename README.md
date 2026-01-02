@@ -113,9 +113,19 @@ bash run_inference.sh configs/lightningdit_xl_vavae_f16d32.yaml
 
 It's possible that this code may not accurately replicate the results outlined in the paper due to potential human errors during the preparation and cleaning of the code for release as well as the difference of the hardware facility. If you encounter any difficulties in reproducing our findings, please don't hesitate to inform us. 
 
+
 ### 🤝🏻 Acknowledgement
 
 This code is mainly built upon [SRA](https://github.com/vvvvvjdy/SRA), [LightningDiT](https://github.com/hustvl/LightningDiT), [RAE](https://github.com/bytetriper/RAE) repositories. 
 Thanks for their solid work!
 
-
+### 🌺 Citation
+If you find IG useful, please kindly cite our paper:
+```bibtex
+@article{zhou2025guiding,
+  title={Guiding a Diffusion Transformer with the Internal Dynamics of Itself},
+  author={Zhou, Xingyu and Li, Qifan and Hu, Xiaobin and Chen, Hai and Gu, Shuhang},
+  journal={arXiv preprint arXiv:2512.24176},
+  year={2025}
+}
+```
