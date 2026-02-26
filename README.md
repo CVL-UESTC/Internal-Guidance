@@ -13,6 +13,7 @@
 
 
 ### 💥 News  
+- **[2026.2.21]** IG is accepted by CVPR 2026.
 - **[2025.12.31]** We have released the paper and code of IG.
 
 
